@@ -6,7 +6,9 @@ Javascript to convert youtube links found in page to the iframe of that video em
 Javascript pour convertir les liens YouTube trouvés dans la page vers l'iframe de cette vidéo intégrée avec un espace réservé de chargement paresseux.
 
 
-##Yep, you heard it right, now in Spanish: 
+Yep, you heard it right, 
+
+## Now in Spanish: 
 
 Javascript para convertir enlaces de YouTube que se encuentran en la página al iframe de ese video incrustado con un marcador de posición de carga diferida.
 
