@@ -1,0 +1,53 @@
+
+.youtube-placeholder {
+display: block; width: 100%; max-width: 560px;
+aspect-ratio: 16 / 9;
+margin: 1.5em auto;
+background-color: #000;
+background-size: cover; background-position: center;
+position: relative; cursor: pointer;
+border-radius: var(--radius);
+overflow: hidden;
+}
+.spotify-placeholder {
+height: 352px;
+background-color: transparent;
+display: block; width: 100%; max-width: 560px;
+aspect-ratio: 16 / 9;
+margin: 1.5em auto;
+background-size: cover; background-position: center;
+position: relative; cursor: pointer;
+border-radius: var(--radius);
+overflow: hidden;
+}
+.spotify-play-button {
+position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%);
+width: 60px; height: 60px;
+background: url('https://img.icons8.com/ios-filled/100/FFFFFF/play-button-circled.png') center / contain no-repeat;
+filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+pointer-events: none;
+}
+.youtube-play-button {
+position: absolute; top: 50%; left: 50%;
+transform: translate(-50%, -50%);
+width: 60px; height: 60px;
+background: url('https://img.icons8.com/ios-filled/100/FFFFFF/play-button-circled.png') center / contain no-repeat;
+filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+pointer-events: none;
+}
+.video-wrapper-with-caption {
+margin: 1.5em auto; max-width: 560px;
+}
+.video-wrapper-with-caption .youtube-placeholder {
+margin-left: 0; margin-right: 0;
+margin-bottom: 0.5em;
+}
+.video-caption {
+display: block; font-size: 0.9em;
+color: var(--secondary);
+text-align: center;
+padding: 0.5em 0.1em; margin-top: 0;
+line-height: 1.4;
+}
+.video-caption a, .video-caption strong { color: inherit; font-weight: inherit; }
