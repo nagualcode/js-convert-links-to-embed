@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videoLinks = document.querySelectorAll(
-    ".post-content a[href*='youtube.com/watch'], .post-content a[href*='youtu.be/'], .post-content a[href*='vimeo.com/'], .post-content a[href*='open.spotify.com/playlist/']"
+    ".body a[href*='youtube.com/watch'], .post-content a[href*='youtu.be/'], .post-content a[href*='vimeo.com/'], .post-content a[href*='open.spotify.com/playlist/']"
   );
   videoLinks.forEach(async (link) => { 
     const url = link.href;
