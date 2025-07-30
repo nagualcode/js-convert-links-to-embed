@@ -20,6 +20,23 @@ position: relative; cursor: pointer;
 border-radius: var(--radius);
 overflow: hidden;
 }
+
+.instagram-placeholder {
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 9 / 16; /* Reels são verticais */
+  position: relative;
+  cursor: pointer;
+}
+
+.instagram-media {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;       /* para que margin auto funcione */
+  max-width: 540px;     /* máximo permitido pelo Instagram */
+  width: 100% !important; /* para responsividade */
+}
+
 .spotify-play-button {
 position: absolute; top: 50%; left: 50%;
 transform: translate(-50%, -50%);
